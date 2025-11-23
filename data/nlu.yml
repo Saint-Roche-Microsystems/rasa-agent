@@ -12,6 +12,16 @@ nlu:
     - saludos
     - que onda
     
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - eres un bot?
+    - eres humano?
+    - eres real?
+
 - intent: despedida
   examples: |
     - chao
@@ -30,6 +40,58 @@ nlu:
     - ¿Cómo llego a [San Francisco](lugar)?
     - Parada cerca de [Basílica del Voto Nacional](lugar)
     - ¿Qué transporte llega a [Plaza Grande](lugar)?
+
+- synonym: Basílica del Voto Nacional
+  examples: |
+    - la basílica
+    - basilica
+    - voto nacional
+    - la basilica del voto nacional
+
+- synonym: Plaza Grande
+  examples: |
+    - la plaza grande
+    - plaza de la independencia
+    - palacio de gobierno
+
+- synonym: Iglesia y Convento de San Francisco
+  examples: |
+    - san francisco
+    - iglesia de san francisco
+    - convento de san francisco
+    - plaza de san francisco
+
+- synonym: Iglesia de La Compañía de Jesús
+  examples: |
+    - la compañía
+    - la compania
+    - iglesia de la compañía
+    - iglesia de oro
+
+- synonym: Iglesia y Convento de San Agustín
+  examples: |
+    - san agustín
+    - san agustin
+    - iglesia de san agustín
+
+- synonym: Calle de La Ronda
+  examples: |
+    - la ronda
+    - calle la ronda
+    - barrio la ronda
+
+- synonym: Monasterio del Carmen Alto
+  examples: |
+    - carmen alto
+    - monasterio del carmen
+    - museo del carmen alto
+
+- synonym: Virgen del Panecillo
+  examples: |
+    - el panecillo
+    - panecillo
+    - la virgen
+    - virgen de quito
 
 - lookup: lugar
   examples: |
