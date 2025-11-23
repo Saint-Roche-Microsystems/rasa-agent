@@ -1,0 +1,34 @@
+version: "3.1"
+
+intents:
+  - saludo
+  - despedida
+  - preguntar_lugar_turistico
+
+entities:
+  - lugar
+
+slots:
+  lugar:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: lugar
+
+responses:
+  utter_saludo:
+  - text: "¡Hola! ¿Como estas?"
+
+  utter_no_encontrado:
+  - text: "Lo siento, no tengo registrado ese lugar."
+
+  utter_despedida:
+  - text: "Chao"
+
+actions:
+  - action_buscar_lugar_turistico
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

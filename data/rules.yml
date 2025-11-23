@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+- rule: Saludar cuando el usuario saluda
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+
+- rule: Decir adios cuando el usuario hace una despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- rule: Buscar parada turística
+  steps:
+    - intent: preguntar_lugar_turistico
+    - action: action_buscar_lugar_turistico

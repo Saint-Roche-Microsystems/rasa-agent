@@ -1,0 +1,7 @@
+version: "3.1"
+
+stories:
+- story: Consultar parada turistica
+  steps:
+    - intent: preguntar_lugar_turistico
+    - action: action_buscar_lugar_turistico

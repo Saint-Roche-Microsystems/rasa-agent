@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Basílica del Voto Nacional",
+    "parada_transporte_publico": {
+      "parada": "Plaza del Teatro",
+      "lineas": ["C2", "C4"]
+    }
+  },
+  {
+    "nombre": "Plaza Grande",
+    "parada_transporte_publico": {
+      "parada": "Marín Central",
+      "lineas": ["E1", "C1", "C4", "Metrobus Central Norte"]
+    }
+  },
+  {
+    "nombre": "Iglesia y Convento de San Francisco",
+    "parada_transporte_publico": {
+      "parada": "Estación San Francisco (Metro)",
+      "lineas": ["Línea 1"]
+    }
+  },
+  {
+    "nombre": "Iglesia de La Compañía de Jesús",
+    "parada_transporte_publico": {
+      "parada": "Montúfar",
+      "lineas": ["C1"]
+    }
+  },
+  {
+    "nombre": "Iglesia y Convento de San Agustín",
+    "parada_transporte_publico": {
+      "parada": "Olmedo",
+      "lineas": ["Ecovía Nor Oriental"]
+    }
+  },
+  {
+    "nombre": "Calle de La Ronda",
+    "parada_transporte_publico": {
+      "parada": "Plaza del Teatro",
+      "lineas": ["C4", "C2"]
+    }
+  },
+  {
+    "nombre": "Monasterio del Carmen Alto",
+    "parada_transporte_publico": {
+      "parada": "Pichincha",
+      "lineas": ["Ecovía Sur Oriental"]
+    }
+  },
+  {
+    "nombre": "Virgen del Panecillo",
+    "parada_transporte_publico": {
+      "parada": "Marín Central",
+      "lineas": ["E1", "C1"]
+    }
+  }
+]

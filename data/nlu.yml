@@ -1,0 +1,43 @@
+version: "3.1"
+
+nlu:
+- intent: saludo
+  examples: |
+    - hey
+    - hola
+    - que tal
+    - buenos dias
+    - buenas tardes
+    - buenas noches
+    - saludos
+    - que onda
+    
+- intent: despedida
+  examples: |
+    - chao
+    - adios
+    - hasta luego
+    - chaito
+    - bye bye
+    - bye
+    - hasta pronto
+    - hablamos
+
+- intent: preguntar_lugar_turistico
+  examples: |
+    - ¿Cuál es la parada más cercana para [La Compañía](lugar)?
+    - Dame información de [La Ronda](lugar)
+    - ¿Cómo llego a [San Francisco](lugar)?
+    - Parada cerca de [Basílica del Voto Nacional](lugar)
+    - ¿Qué transporte llega a [Plaza Grande](lugar)?
+
+- lookup: lugar
+  examples: |
+    - Basílica del Voto Nacional
+    - Plaza Grande
+    - Iglesia y Convento de San Francisco
+    - Iglesia de La Compañía de Jesús
+    - Iglesia y Convento de San Agustín
+    - Calle de La Ronda
+    - Monasterio del Carmen Alto
+    - Virgen del Panecillo
