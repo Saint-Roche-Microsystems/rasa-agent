@@ -15,3 +15,13 @@ rules:
   steps:
     - intent: preguntar_lugar_turistico
     - action: action_buscar_lugar_turistico
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_help
