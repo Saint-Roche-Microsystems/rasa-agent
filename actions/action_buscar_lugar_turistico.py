@@ -22,13 +22,27 @@ class ActionBuscarLugarTuristico(Action):
         data = json.loads(file_path.read_text(encoding="utf-8"))
 
         # Buscar el lugar
-        for sitio in data:
-            if sitio["nombre"].lower() == lugar.lower():
-                parada = sitio["parada_transporte_publico"]["parada"]
-                lineas = ", ".join(sitio["parada_transporte_publico"]["lineas"])
-                mensaje = f"La parada más cercana a *{lugar}* es **{parada}**, y pasan las líneas: {lineas}."
-                dispatcher.utter_message(text=mensaje)
-                return []
+        # Buscar el lugar
+        # Crear lista de nombres disponibles
+        nombres_lugares = [sitio["nombre"] for sitio in data]
+        
+        # Usar difflib para encontrar coincidencias cercanas (fuzzy matching)
+        import difflib
+        coincidencias = difflib.get_close_matches(lugar, nombres_lugares, n=1, cutoff=0.4)
+
+        if coincidencias:
+            mejor_coincidencia = coincidencias[0]
+            
+            # Buscar los datos de la mejor coincidencia
+            for sitio in data:
+                if sitio["nombre"] == mejor_coincidencia:
+                    parada = sitio["parada_transporte_publico"]["parada"]
+                    lineas = ", ".join(sitio["parada_transporte_publico"]["lineas"])
+                    
+                    mensaje = f"La parada más cercana a *{mejor_coincidencia}* es **{parada}**.\n" \
+                              f"🚌 Líneas que pasan: {lineas}."
+                    dispatcher.utter_message(text=mensaje)
+                    return []
 
         dispatcher.utter_message(response="utter_no_encontrado")
         return []

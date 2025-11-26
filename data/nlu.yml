@@ -11,7 +11,17 @@ nlu:
     - buenas noches
     - saludos
     - que onda
-    
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - eres un bot?
+    - eres humano?
+    - eres real?
+
 - intent: despedida
   examples: |
     - chao
@@ -30,6 +40,201 @@ nlu:
     - ¿Cómo llego a [San Francisco](lugar)?
     - Parada cerca de [Basílica del Voto Nacional](lugar)
     - ¿Qué transporte llega a [Plaza Grande](lugar)?
+    - ¿Dónde queda [Mitad del Mundo](lugar)?
+    - ¿Cómo llegar a [Teleférico de Quito](lugar)?
+    - Quiero ir al [Parque La Carolina](lugar)
+    - ¿Qué bus me sirve para ir al [Itchimbía](lugar)?
+    - ¿Qué líneas llegan a [Plaza Foch](lugar)?
+
+# --------- SINÓNIMOS ACTUALIZADOS -----------
+
+- synonym: Basílica del Voto Nacional
+  examples: |
+    - la basílica
+    - basilica
+    - voto nacional
+    - la basilica del voto nacional
+    - basílica voto nacional
+    - basilica de quito
+
+- synonym: Plaza Grande
+  examples: |
+    - la plaza grande
+    - plaza de la independencia
+    - palacio de gobierno
+    - plaza central
+
+- synonym: Iglesia y Convento de San Francisco
+  examples: |
+    - san francisco
+    - iglesia de san francisco
+    - convento de san francisco
+    - plaza de san francisco
+    - sanfran
+
+- synonym: Iglesia de La Compañía de Jesús
+  examples: |
+    - la compañía
+    - la compania
+    - iglesia de la compañía
+    - iglesia de oro
+    - compania de jesus
+
+- synonym: Iglesia y Convento de San Agustín
+  examples: |
+    - san agustín
+    - san agustin
+    - iglesia de san agustín
+    - convento san agustín
+
+- synonym: Calle de La Ronda
+  examples: |
+    - la ronda
+    - calle la ronda
+    - barrio la ronda
+    - ronda
+
+- synonym: Monasterio del Carmen Alto
+  examples: |
+    - carmen alto
+    - monasterio del carmen
+    - museo del carmen alto
+
+- synonym: Virgen del Panecillo
+  examples: |
+    - el panecillo
+    - panecillo
+    - la virgen
+    - virgen de quito
+    - virgen del panecillo
+
+- synonym: Parque Itchimbía
+  examples: |
+    - itchimbía
+    - itchimbia
+    - parque itchimbia
+    - mirador itchimbia
+
+- synonym: Parque La Carolina
+  examples: |
+    - la carolina
+    - parque la carolina
+    - carolina
+
+- synonym: Parque El Ejido
+  examples: |
+    - el ejido
+    - parque ejido
+    - ejido
+
+- synonym: Museo del Carmen Alto
+  examples: |
+    - museo carmen alto
+    - carmen alto museo
+
+- synonym: Museo de la Ciudad
+  examples: |
+    - museo ciudad
+    - museo del centro
+
+- synonym: Museo Nacional del Ecuador
+  examples: |
+    - mu-na-e
+    - museo nacional
+    - el munae
+
+- synonym: Centro de Arte Contemporáneo
+  examples: |
+    - cac
+    - centro de arte
+    - arte contemporaneo
+
+- synonym: Plaza Foch
+  examples: |
+    - la foch
+    - zona foch
+    - foch plaza
+
+- synonym: Parque Bicentenario
+  examples: |
+    - bicentenario
+    - parque bicentenario
+
+- synonym: Teleférico de Quito
+  examples: |
+    - teleférico
+    - teleferico
+    - teleferiq
+
+- synonym: Mitad del Mundo
+  examples: |
+    - la mitad del mundo
+    - monumento mitad del mundo
+    - ciudad mitad del mundo
+    - mitad mundo
+
+- synonym: Museo Intiñan
+  examples: |
+    - intiñan
+    - intinan
+    - museo intinan
+
+- synonym: Capilla del Hombre
+  examples: |
+    - la capilla del hombre
+    - capilla hombre
+    - museo guayasamín
+
+- synonym: Casa Museo Guayasamín
+  examples: |
+    - casa guayasamín
+    - museo guayasamín
+    - guayasamín
+
+- synonym: Parque Metropolitano Guangüiltagua
+  examples: |
+    - parque metropolitano
+    - guanguiltagua
+    - metropolitano norte
+
+- synonym: Boulevard 24 de Mayo
+  examples: |
+    - 24 de mayo
+    - boulevard 24 mayo
+
+- synonym: Plaza Santo Domingo
+  examples: |
+    - santo domingo
+    - plaza santo domingo
+
+- synonym: Centro Cultural Metropolitano
+  examples: |
+    - ccm
+    - centro cultural
+
+- synonym: Teatro Bolívar
+  examples: |
+    - bolívar
+    - teatro bolivar
+
+- synonym: Teatro Sucre
+  examples: |
+    - sucre
+    - teatro sucre
+
+- synonym: Parque Arqueológico Rumipamba
+  examples: |
+    - rumipamba
+    - parque rumipamba
+    - sitio arqueológico rumipamba
+
+- synonym: Guápulo
+  examples: |
+    - guapulo
+    - barrio guápulo
+    - iglesia de guápulo
+
+# --------- LOOKUP ACTUALIZADO -----------
 
 - lookup: lugar
   examples: |
@@ -41,3 +246,25 @@ nlu:
     - Calle de La Ronda
     - Monasterio del Carmen Alto
     - Virgen del Panecillo
+    - Parque Itchimbía
+    - Parque La Carolina
+    - Parque El Ejido
+    - Museo del Carmen Alto
+    - Museo de la Ciudad
+    - Museo Nacional del Ecuador
+    - Centro de Arte Contemporáneo
+    - Plaza Foch
+    - Parque Bicentenario
+    - Teleférico de Quito
+    - Mitad del Mundo
+    - Museo Intiñan
+    - Capilla del Hombre
+    - Casa Museo Guayasamín
+    - Parque Metropolitano Guangüiltagua
+    - Boulevard 24 de Mayo
+    - Plaza Santo Domingo
+    - Centro Cultural Metropolitano
+    - Teatro Bolívar
+    - Teatro Sucre
+    - Parque Arqueológico Rumipamba
+    - Guápulo

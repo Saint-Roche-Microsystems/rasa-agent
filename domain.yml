@@ -4,6 +4,7 @@ intents:
   - saludo
   - despedida
   - preguntar_lugar_turistico
+  - bot_challenge
 
 entities:
   - lugar
@@ -18,7 +19,21 @@ slots:
 
 responses:
   utter_saludo:
-  - text: "¡Hola! ¿Como estas?"
+  - text: "¡Hola! Soy tu asistente turístico de Quito. \n¿En qué puedo ayudarte hoy?"
+    buttons:
+    - title: "Buscar lugar turístico"
+      payload: "/preguntar_lugar_turistico"
+    - title: "Ayuda"
+      payload: "/help"
+
+  utter_help:
+  - text: "Puedo ayudarte a encontrar paradas de transporte público cercanas a lugares turísticos de Quito. Por ejemplo, pregunta: '¿Cómo llego al Panecillo?'"
+    buttons:
+    - title: "Ver lista de lugares"
+      payload: "/preguntar_lugar_turistico"
+
+  utter_iamabot:
+  - text: "Soy un bot, impulsado por Rasa."
 
   utter_no_encontrado:
   - text: "Lo siento, no tengo registrado ese lugar."
