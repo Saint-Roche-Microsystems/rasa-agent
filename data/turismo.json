@@ -54,5 +54,159 @@
       "parada": "Marín Central",
       "lineas": ["E1", "C1"]
     }
+  },
+  {
+    "nombre": "Parque Itchimbía",
+    "parada_transporte_publico": {
+      "parada": "La Alameda",
+      "lineas": ["Ecovía Troncal", "C1"]
+    }
+  },
+  {
+    "nombre": "Parque La Carolina",
+    "parada_transporte_publico": {
+      "parada": "Estación La Carolina (Trole)",
+      "lineas": ["Trolebús", "QuitoCables"]
+    }
+  },
+  {
+    "nombre": "Parque El Ejido",
+    "parada_transporte_publico": {
+      "parada": "El Ejido",
+      "lineas": ["Trolebús", "C1", "C5"]
+    }
+  },
+  {
+    "nombre": "Museo del Carmen Alto",
+    "parada_transporte_publico": {
+      "parada": "Pichincha",
+      "lineas": ["Ecovía Sur Oriental"]
+    }
+  },
+  {
+    "nombre": "Museo de la Ciudad",
+    "parada_transporte_publico": {
+      "parada": "Plaza del Teatro",
+      "lineas": ["C4", "C2"]
+    }
+  },
+  {
+    "nombre": "Museo Nacional del Ecuador",
+    "parada_transporte_publico": {
+      "parada": "La Carolina",
+      "lineas": ["Trolebús", "Ecovía"]
+    }
+  },
+  {
+    "nombre": "Centro de Arte Contemporáneo",
+    "parada_transporte_publico": {
+      "parada": "La Gasca",
+      "lineas": ["Rutas de buses occidentales"]
+    }
+  },
+  {
+    "nombre": "Plaza Foch",
+    "parada_transporte_publico": {
+      "parada": "Juan León Mera",
+      "lineas": ["Ecovía", "C5"]
+    }
+  },
+  {
+    "nombre": "Parque Bicentenario",
+    "parada_transporte_publico": {
+      "parada": "Bicentenario",
+      "lineas": ["Metro de Quito Línea 1"]
+    }
+  },
+  {
+    "nombre": "Teleférico de Quito",
+    "parada_transporte_publico": {
+      "parada": "La Gasca",
+      "lineas": ["Rutas occidentales"]
+    }
+  },
+  {
+    "nombre": "Mitad del Mundo",
+    "parada_transporte_publico": {
+      "parada": "Mitad del Mundo",
+      "lineas": ["Metrobús La Ofelia - Mitad del Mundo"]
+    }
+  },
+  {
+    "nombre": "Museo Intiñan",
+    "parada_transporte_publico": {
+      "parada": "Mitad del Mundo",
+      "lineas": ["Metrobús La Ofelia - Mitad del Mundo"]
+    }
+  },
+  {
+    "nombre": "Capilla del Hombre",
+    "parada_transporte_publico": {
+      "parada": "El Batán",
+      "lineas": ["Ecovía"]
+    }
+  },
+  {
+    "nombre": "Casa Museo Guayasamín",
+    "parada_transporte_publico": {
+      "parada": "El Batán",
+      "lineas": ["Ecovía"]
+    }
+  },
+  {
+    "nombre": "Parque Metropolitano Guangüiltagua",
+    "parada_transporte_publico": {
+      "parada": "Eloy Alfaro",
+      "lineas": ["Rutas del norte"]
+    }
+  },
+  {
+    "nombre": "Boulevard 24 de Mayo",
+    "parada_transporte_publico": {
+      "parada": "24 de Mayo",
+      "lineas": ["C1", "C3"]
+    }
+  },
+  {
+    "nombre": "Plaza Santo Domingo",
+    "parada_transporte_publico": {
+      "parada": "Santo Domingo",
+      "lineas": ["C2", "Trolebús"]
+    }
+  },
+  {
+    "nombre": "Centro Cultural Metropolitano",
+    "parada_transporte_publico": {
+      "parada": "Plaza Grande",
+      "lineas": ["C1", "E1"]
+    }
+  },
+  {
+    "nombre": "Teatro Bolívar",
+    "parada_transporte_publico": {
+      "parada": "Plaza del Teatro",
+      "lineas": ["C4", "C2"]
+    }
+  },
+  {
+    "nombre": "Teatro Sucre",
+    "parada_transporte_publico": {
+      "parada": "Plaza del Teatro",
+      "lineas": ["C4", "C2"]
+    }
+  },
+  {
+    "nombre": "Parque Arqueológico Rumipamba",
+    "parada_transporte_publico": {
+      "parada": "Av. Occidental",
+      "lineas": ["Líneas occidentales de buses"]
+    }
+  },
+  {
+    "nombre": "Guápulo",
+    "parada_transporte_publico": {
+      "parada": "12 de Octubre",
+      "lineas": ["Ecovía"]
+    }
   }
 ]
